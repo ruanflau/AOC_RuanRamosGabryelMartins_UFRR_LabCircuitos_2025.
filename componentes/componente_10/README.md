@@ -1,7 +1,7 @@
-### [COMPONENTE 10]. Unidade Lógica Aritmetrica (ULA) de 8 bits
+### [COMPONENTE 10]. Unidade Lógica e Aritmetrica (ULA) de 8 bits
 
 * **Descrição (os pinos e a lógica) do componente e sua funcionalidade**
-    * **Funcionalidade:** Unidade Lógica e Aritmética com operações selecionadas por opcode.
+    * **Funcionalidade:** ULA de 8 bits com as seguintes operações: AND, OR, NOT, NOR, NAND, XOR, SHIFT de 2 bits à esquerda, SHIFT de bits à direita, soma e subtração.
     * **Pinos de Entrada:**
         * `A[7..0]`, `B[7..0]`: Operandos.
         * `OP[3..0]`: Código da operação.
